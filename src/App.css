@@ -3,12 +3,12 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,3 +20,23 @@
 .App-link {
   color: #09d3ac;
 }
+
+button {
+  padding: 20px;
+  border: 2px solid silver;
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  background: orange
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+
+/*Button disabled - CSS color class*/
+color: #c0c0c0;
+background-color: #ffffff;
+border: 2px solid grey;
+}
+
